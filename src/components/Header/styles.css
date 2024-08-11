@@ -1,0 +1,8 @@
+header {
+    background-color: var(--ct-color-bg-secondary);
+    color: var(--ct-color-font-tertiary);
+    display: flex;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+}
