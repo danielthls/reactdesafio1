@@ -31,12 +31,8 @@ body {
   background-color: var(--ct-color-bg-primary);
 }
 
-main {
-  padding: 0 20px;
-}
-
 .ct-container {
   width: 100%;
-  max-width: 746px;
+  max-width: 960px;
   margin: 0 auto;
 }

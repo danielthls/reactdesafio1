@@ -1,6 +1,7 @@
 import './styles.css'
 import Header from '../../components/Header'
 import CarCard from '../../components/CarCard';
+import CommentCard from '../../components/CommentCard';
 
 export default function Catalog() {
     return (
@@ -8,14 +9,25 @@ export default function Catalog() {
             <Header />
             <main>
                 <section id='ct-car-section' className='ct-container'>
-                    <div className='ct-car-title'>
-                        <h1>Venha nos visitar</h1>
+                    <div className='ct-title'>
+                        <h2>Venha nos visitar</h2>
                     </div>
-                    <div className='ct-car-cards-container'>
+                    <div className='ct-cards-container'>
                         <CarCard />
                         <CarCard />
-                        <CarCard />
-                        <CarCard />
+                    </div>
+                </section>
+                <section id='ct-comment-section'>
+                    <div className='ct-comment-container'>
+                        <div className='ct-title'>
+                            <h2>O que estão dizendo</h2>
+                        </div>
+                        <div className='ct-cards-container'>
+                            <CommentCard />
+                            <CommentCard />
+                            <CommentCard />
+                            <CommentCard />
+                        </div>
                     </div>
                 </section>
             </main>

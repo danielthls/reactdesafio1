@@ -1,0 +1,21 @@
+.ct-comment-card {
+    background-color: var(--ct-color-bg-primary);
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 25px 20px;
+    margin: 0 auto;
+    border: 1px solid var(--ct-color-border-cards);
+    max-width: 960px;
+}
+
+.ct-comment-card p {
+    font-size: 16px;
+    color: var(--ct-color-font-secondary);
+}
+
+@media (min-width: 1200px) {
+    .ct-comment-card {
+        width: 960px;
+    }
+}

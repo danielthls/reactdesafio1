@@ -1,8 +1,14 @@
 #ct-car-section {
-    padding: 25px 0;
+    padding: 25px 20px;
+    max-width: 746px;
 }
 
-.ct-car-title {
+#ct-comment-section {
+    padding: 25px 0;
+    background-color: var(--ct-color-bg-tertiary);
+}
+
+.ct-title h2 {
     font-size: 20px;
     text-align: center;
     color: var(--ct-color-font-primary);
@@ -10,13 +16,17 @@
 }
 
 @media (min-width: 1200px) {
-    .ct-car-title h1 {
+    .ct-title h2 {
         font-size: 32px;
     }
 }
 
-.ct-car-cards-container {
+.ct-cards-container {
     display: flex;
     flex-direction: column;
     gap: 25px;
+}
+
+.ct-comment-container {
+    padding: 0 20px;
 }
