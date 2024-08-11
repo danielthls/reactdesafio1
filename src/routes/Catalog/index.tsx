@@ -2,6 +2,7 @@ import './styles.css'
 import Header from '../../components/Header'
 import CarCard from '../../components/CarCard';
 import CommentCard from '../../components/CommentCard';
+import Footer from '../../components/Footer';
 
 export default function Catalog() {
     return (
@@ -30,7 +31,11 @@ export default function Catalog() {
                         </div>
                     </div>
                 </section>
+
+
+
             </main>
+            <Footer />
         </>
     );
 }
