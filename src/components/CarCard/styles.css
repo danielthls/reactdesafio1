@@ -1,0 +1,27 @@
+.ct-car-card {
+    background-color: var(--ct-color-bg-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    border: 1px solid var(--ct-color-border-cards);
+}
+
+.ct-car-card img {
+    width: 100%;
+    min-width: 260px;
+    max-width: 391px;
+}
+
+.ct-car-card h3 {
+    font-size: 16px;
+    color: var(--ct-color-font-primary);
+}
+
+@media (min-width: 1200px) {
+    .ct-car-card h3 {
+        font-size: 20px;
+    }
+}

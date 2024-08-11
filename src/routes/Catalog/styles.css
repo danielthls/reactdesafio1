@@ -1,0 +1,22 @@
+#ct-car-section {
+    padding: 25px 0;
+}
+
+.ct-car-title {
+    font-size: 20px;
+    text-align: center;
+    color: var(--ct-color-font-primary);
+    margin-bottom: 25px;
+}
+
+@media (min-width: 1200px) {
+    .ct-car-title h1 {
+        font-size: 32px;
+    }
+}
+
+.ct-car-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}

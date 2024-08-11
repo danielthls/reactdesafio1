@@ -32,18 +32,11 @@ body {
 }
 
 main {
-  padding: 0 10px;
-}
-
-
-@media (min-width: 576px) {
-  main {
-    padding: 0 20px;
-  }
+  padding: 0 20px;
 }
 
 .ct-container {
   width: 100%;
-  max-width: 960px;
+  max-width: 746px;
   margin: 0 auto;
 }
